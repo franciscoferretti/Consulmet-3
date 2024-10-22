@@ -34,7 +34,10 @@
     <link rel="stylesheet" href="demos/medical/medical.css" />
   </head>
   <body data-mobile-nav-style="classic">
+    
+    <div class="box-layout">
     <!-- start header -->
+
     <header>
       <!-- start navigation -->
       <nav
@@ -43,7 +46,7 @@
       >
         <div class="container-fluid">
           <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-            <a class="navbar-brand" href="demo-medical.html">
+            <a class="navbar-brand" href="index.html">
               <img
                 src="images/consulmet/iconos-consulmet/KIT-MANUALIZACIÓN/ICONOS Y GRAFICOS/logo 2.png"
                 data-at2x="images/demo-business-logo-white@2x.png"
@@ -81,12 +84,12 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav alt-font">
                 <li class="nav-item">
-                  <a href="demo-medical.html" class="nav-link text-black"
+                  <a href="index.html" class="nav-link text-black"
                     >Inicio</a
                   >
                 </li>
                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                  <a href="demo-medical-about.html" class="nav-link text-black"
+                  <a href="nosotros.html" class="nav-link text-black"
                     >Nosotros</a
                   >
                   <i
@@ -101,7 +104,7 @@
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a href="demo-business-services-details.html"
+                      <a href="#"
                         ><i class="bi bi-briefcase"></i>Infraestructura</a
                       >
                     </li>
@@ -109,7 +112,7 @@
                 </li>
                 <li class="nav-item dropdown dropdown-with-icon-style02">
                   <a
-                    href="demo-medical-treatments.html"
+                    href="servicios.html"
                     class="nav-link text-black"
                     >Servicios</a
                   >
@@ -158,15 +161,13 @@
                   </ul> -->
                 </li>
                 <li class="nav-item">
-                  <a
-                    href="#"
-                    class="nav-link text-black"
+                  <a href="#" class="nav-link text-black"
                     >Trabaja con nosotros</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    href="demo-medical-contact.html"
+                    href="contacto.html"
                     class="nav-link text-black"
                     >Contacto</a
                   >
@@ -293,15 +294,19 @@
       </div>
     </section>
     <!-- end page title -->
-
+</div>
     <!-- start section -->
-    <section
-      class="background-no-repeat border-radius-6px lg-border-radius-0px md-background-image-none"
-      style="
-        background-image: url('images/consulmet/consulmet-figura-derecha.png');
-      "
-    >
-      <div class="container">
+    <section class="position-relative overflow-hidden">
+      <div
+        class="position-absolute top-minus-1px left-minus-20px lg-left-15px opacity-4 w-450px z-index-1 d-none d-lg-inline-block"
+      >
+        <img
+          src="images/consulmet/consulmet-figura-derecha.png"
+          alt=""
+
+        />
+      </div>
+      <div class="container position-relative z-index-1">
         <div class="row align-items-center justify-content-center">
           <div
             class="col-lg-5 text-end md-mb-50px"
@@ -332,21 +337,19 @@
             class="col-lg-7"
             data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
           >
-          <span
-          class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"
-          ><span
-            class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"
-            ><i
-              class="bi bi-layout-text-sidebar-reverse text-base-color fs-20"
-            ></i></span
-          >Sobre Nosotros</span
-        >
-        <h2 class="fw-800 text-dark-gray ls-minus-2px">
-         Que es CONSULMET
-        </h2>
-            <div class="row row-cols-1 justify-content-center mb-40px">
+            <span
+              class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"
+              ><span
+                class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"
+                ><i
+                  class="bi bi-layout-text-sidebar-reverse text-base-color fs-20"
+                ></i></span
+              >Sobre Nosotros</span
+            >
+            <h2 class="fw-800 text-dark-gray ls-minus-2px">Que es CONSULMET</h2>
+            <div class="row row-cols-1 justify-content-center mb-40px text-black">
               <!-- start features box item -->
-              <div class="col icon-with-text-style-08 mb-25px">
+              <div class="col icon-with-text-style-08 mb-25px ">
                 <div class="feature-box feature-box-left-icon overflow-hidden">
                   <div
                     class="mt-1 feature-box-icon feature-box-icon-rounded w-20px h-20px rounded-circle me-15px text-center"
@@ -537,16 +540,23 @@
     </section>
     <!-- end section -->
     <div class="">
-      <section class="g-border-radius-0px mb-10px position-relative ">
-        <div id="particles-02" data-particle="true" data-particle-options='{"particles": {"number": {"value": 15,"density": {"enable": true,"value_area": 1000}},"color":{"value":["#e94641", "#4a5768"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.5,"random": false,"anim": {"enable": false,"speed": 20,"sync": false}},"size": {"value": 15,"random": true,"anim": {"enable": false,"sync": true}},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}' class="position-absolute h-100 top-0 left-0 z-index-minus-1"></div>
+      <section class="g-border-radius-0px mb-10px position-relative">
+        <div
+          id="particles-02"
+          data-particle="true"
+          data-particle-options='{"particles": {"number": {"value": 15,"density": {"enable": true,"value_area": 1000}},"color":{"value":["#e94641", "#4a5768"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.5,"random": false,"anim": {"enable": false,"speed": 20,"sync": false}},"size": {"value": 15,"random": true,"anim": {"enable": false,"sync": true}},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'
+          class="position-absolute h-100 top-0 left-0 z-index-minus-1"
+        ></div>
         <div class="container">
           <div class="row justify-content-center mb-35px pb-30px">
             <div
-            class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
+              class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 text-center"
+              data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
             >
- <!-- <span class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"><span class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"><i class="bi bi-trophy text-base-color fs-20"></i></span>Our mission and vision</span>  -->
-                            <h2 class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px">Nuestros inicios</h2>
+              <!-- <span class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"><span class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"><i class="bi bi-trophy text-base-color fs-20"></i></span>Our mission and vision</span>  -->
+              <h2 class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px">
+                Nuestros inicios
+              </h2>
             </div>
           </div>
         </div>
@@ -645,13 +655,16 @@
       <!-- start section -->
 
       <!-- start section -->
-      <section
-        class="pb-0 bg-dark-midnight-blue background-position-right-top background-no-repeat md-background-image-none"
-        style="
-          background-image: url('images/consulmet/consulmet-figura-izquierda.png');
-        "
-      >
-        <div class="container-fluid">
+      <section class="position-relative overflow-hidden">
+        <div
+          class="position-absolute top-minus-50px right-minus-20px lg-left-15px opacity-4 w-450px z-index-1 d-none d-lg-inline-block"
+        >
+          <img
+            src="images/consulmet/consulmet-figura-izquierda.png"
+            alt=""
+          />
+        </div>
+        <div class="container-fluid position-relative z-index-1">
           <div class="row justify-content-center">
             <div class="col-xxl-10 col-xl-11 tab-style-01">
               <!-- start tab navigation -->
@@ -676,29 +689,10 @@
                     >Nuestros Valores</a
                   >
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab_sec4"
-                    >Cardiology</a
-                  >
-                </li> -->
-                <!-- <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab_sec5"
-                    >Orthopedics</a
-                  >
-                </li> -->
               </ul>
               <!-- end tab navigation -->
               <div class="tab-content">
                 <!-- start tab content -->
-                <!-- <span
-                  class="btn btn-base-color btn-small btn-round-edge bg-base-color text-white d-inline-block d-md-none mb-15px mx-auto sm-w-100"
-                  ><i
-                    class="feather icon-feather-arrow-left align-middle icon-extra-medium m-0 me-5px"
-                  ></i
-                  >Drag to scroll see more<i
-                    class="feather icon-feather-arrow-right align-middle icon-extra-medium m-0 ms-5px"
-                  ></i
-                ></span> -->
                 <div
                   class="tab-pane fade in active show"
                   id="tab_sec1"
@@ -714,17 +708,25 @@
                             class="row justify-content-center align-items-center mb-6 sm-pb-9"
                           >
                             <div
-                              class="col-lg-6 ps-6 text-center text-lg-start lg-ps-15px"
+                              class="col-lg-12 ps-6 text-center text-lg-start lg-ps-15px"
                               data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                             >
-                              <!-- <span
-                                class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block"
-                                >Sobre Nosotros</span
-                              > -->
-                              <span class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"><span class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"><i class="bi bi-trophy text-base-color fs-20"></i></span>Our mission and vision</span> 
-                            <h2 class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px">Nuestra mision</h2>
+                              <span
+                                class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"
+                                ><span
+                                  class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"
+                                  ><i
+                                    class="bi bi-trophy text-base-color fs-20"
+                                  ></i></span
+                                >Our mission and vision</span
+                              >
+                              <h2
+                                class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px"
+                              >
+                                Nuestra mision
+                              </h2>
                               <p
-                                class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px"
+                                class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px text-black"
                               >
                                 Brindar un servicio de calidad profesional y
                                 humana, abocado al cuidado de la salud
@@ -741,7 +743,7 @@
                               <div
                                 class="overflow-hidden border-radius-4px position-relative"
                               >
-                                <div
+                                <!-- <div
                                   class="w-100"
                                   data-anime='{ "effect": "slide", "direction": "bt", "color": "#17161a", "duration": 1000, "delay": 0 }'
                                 >
@@ -753,7 +755,7 @@
                                     data-parallax-position="top"
                                     data-parallax-scale="1.2"
                                   />
-                                </div>
+                                </div> -->
                               </div>
                             </div>
                           </div>
@@ -767,7 +769,7 @@
                 <div class="tab-pane fade in" id="tab_sec2">
                   <div class="container">
                     <section
-                      class="bg-dark-midnight-blue background-position-right-top background-no-repeat md-background-image-none"
+                      class="bg-dark-midnight-blue background-position-right-top background-no-repeat md-background-image-none "
                     >
                       <div class="container">
                         <div
@@ -780,7 +782,7 @@
                             <div
                               class="overflow-hidden border-radius-4px position-relative"
                             >
-                              <div
+                              <!-- <div
                                 class="w-100"
                                 data-anime='{ "effect": "slide", "direction": "bt", "color": "#17161a", "duration": 1000, "delay": 0 }'
                               >
@@ -792,16 +794,28 @@
                                   data-parallax-position="top"
                                   data-parallax-scale="1.2"
                                 />
-                              </div>
+                              </div> -->
                             </div>
                           </div>
                           <div
-                            class="col-lg-6 ps-6 text-center text-lg-start lg-ps-15px"
+                            class="col-lg-12 ps-6 text-center text-lg-start lg-ps-15px"
                             data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                           >
-                          <span class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"><span class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"><i class="bi bi-trophy text-base-color fs-20"></i></span>Our mission and vision</span> 
-                          <h2 class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px">Nuestra Vision</h2>
-                            <p class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px">
+                            <span
+                              class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"
+                              ><span
+                                class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"
+                                ><i
+                                  class="bi bi-trophy text-base-color fs-20"
+                                ></i></span
+                              >Our mission and vision</span
+                            >
+                            <h2
+                              class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px"
+                            >
+                              Nuestra Vision
+                            </h2>
+                            <p class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px text-black">
                               Somos una empresa lider en el mercado de la
                               medicina laboral a nivel nacional, brindando
                               soluciones adaptadas a las exigencias de nuestros
@@ -825,11 +839,23 @@
                           class="row justify-content-center align-items-center mb-6 sm-pb-9"
                         >
                           <div
-                            class="col-lg-6 ps-6 text-center text-lg-start lg-ps-15px"
+                            class="col-lg-12 ps-6 text-center text-lg-start lg-ps-15px"
                             data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
                           >
-                          <span class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"><span class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"><i class="bi bi-trophy text-base-color fs-20"></i></span>Our mission and vision</span> 
-                          <h2 class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px">Nuestros Valores</h2>
+                            <span
+                              class="fs-18 fw-600 text-dark-gray mb-20px d-flex align-items-center"
+                              ><span
+                                class="text-center w-60px h-60px d-flex justify-content-center align-items-center rounded-circle bg-light-sea-green-transparent-light align-middle me-15px"
+                                ><i
+                                  class="bi bi-trophy text-base-color fs-20"
+                                ></i></span
+                              >Our mission and vision</span
+                            >
+                            <h2
+                              class="fw-800 text-dark-gray ls-minus-2px mb-40px md-mb-35px"
+                            >
+                              Nuestros Valores
+                            </h2>
                             <div
                               class="row row-cols-1 justify-content-center mb-40px"
                             >
@@ -847,7 +873,7 @@
                                     />
                                   </div>
                                   <div
-                                    class="feature-box-content last-paragraph-no-margin"
+                                    class="feature-box-content last-paragraph-no-margin text-black"
                                   >
                                     <!-- <span class="d-inline-block fs-18 fw-700 text-dark-gray ls-minus-05px mb-5px">Serving 10,000+ patients annually.</span> -->
                                     <p class="w-85 lg-w-100">
@@ -876,7 +902,7 @@
                                     />
                                   </div>
                                   <div
-                                    class="feature-box-content last-paragraph-no-margin"
+                                    class="feature-box-content last-paragraph-no-margin text-black"
                                   >
                                     <!-- <span class="d-inline-block fs-18 fw-700 text-dark-gray ls-minus-05px mb-5px">Serving 10,000+ patients annually.</span> -->
                                     <p class="w-85 lg-w-100">
@@ -905,7 +931,7 @@
                                     />
                                   </div>
                                   <div
-                                    class="feature-box-content last-paragraph-no-margin"
+                                    class="feature-box-content last-paragraph-no-margin text-black"
                                   >
                                     <!-- <span class="d-inline-block fs-18 fw-700 text-dark-gray ls-minus-05px mb-5px">Serving 10,000+ patients annually.</span> -->
                                     <p class="w-85 lg-w-100">
@@ -934,7 +960,7 @@
                                     />
                                   </div>
                                   <div
-                                    class="feature-box-content last-paragraph-no-margin"
+                                    class="feature-box-content last-paragraph-no-margin text-black"
                                   >
                                     <!-- <span class="d-inline-block fs-18 fw-700 text-dark-gray ls-minus-05px mb-5px">Serving 10,000+ patients annually.</span> -->
                                     <p class="w-85 lg-w-100">
@@ -962,7 +988,7 @@
                                     />
                                   </div>
                                   <div
-                                    class="feature-box-content last-paragraph-no-margin"
+                                    class="feature-box-content last-paragraph-no-margin text-black"
                                   >
                                     <!-- <span class="d-inline-block fs-18 fw-700 text-dark-gray ls-minus-05px mb-5px">Serving 10,000+ patients annually.</span> -->
                                     <p class="w-85 lg-w-100">
@@ -985,7 +1011,7 @@
                             <div
                               class="overflow-hidden border-radius-4px position-relative"
                             >
-                              <div
+                              <!-- <div
                                 class="w-100"
                                 data-anime='{ "effect": "slide", "direction": "bt", "color": "#17161a", "duration": 1000, "delay": 0 }'
                               >
@@ -997,171 +1023,13 @@
                                   data-parallax-position="top"
                                   data-parallax-scale="1.2"
                                 />
-                              </div>
+                              </div> -->
                             </div>
                           </div>
                         </div>
                       </div>
                     </section>
                   </div>
-                </div>
-                <!-- end tab content -->
-                <!-- start tab content -->
-                <div class="tab-pane fade in" id="tab_sec5">
-                  <section
-                    class="bg-dark-midnight-blue background-position-right-top background-no-repeat md-background-image-none"
-                    style="
-                      background-image: url('images/demo-conference-about-bg.png');
-                    "
-                  >
-                    <div class="container">
-                      <div
-                        class="row justify-content-center align-items-center mb-6 sm-pb-9"
-                      >
-                        <div
-                          class="col-lg-6 col-md-9 position-relative md-mb-15 text-center text-lg-start"
-                          data-anime='{ "el": "childs", "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 15, "easing": "easeOutQuad" }'
-                        >
-                          <div
-                            class="overflow-hidden border-radius-4px position-relative"
-                          >
-                            <div
-                              class="w-100"
-                              data-anime='{ "effect": "slide", "direction": "bt", "color": "#17161a", "duration": 1000, "delay": 0 }'
-                            >
-                              <img
-                                src="https://via.placeholder.com/580x720"
-                                alt=""
-                                class="w-100 border-radius-5px liquid-parallax"
-                                data-parallax-liquid="true"
-                                data-parallax-position="top"
-                                data-parallax-scale="1.2"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="col-lg-6 ps-6 text-center text-lg-start lg-ps-15px"
-                          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                        >
-                          <span
-                            class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block"
-                            >Sobre Nosotros</span
-                          >
-                          <h2
-                            class="alt-font text-black fw-500 ls-minus-2px mb-40px sm-mb-30px"
-                          >
-                            <span
-                              class="w-20px h-4px d-inline-block bg-base-color me-10px"
-                            ></span
-                            >Especializados en medicina laboral
-                          </h2>
-                          <p class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px">
-                            Somos una empresa dedicada a prestar servicios de
-                            consultoría en Medicina Laboral, brindando
-                            soluciones integrales para las empresas y sus
-                            colaboradores..
-                          </p>
-                          <p class="w-80 xl-w-90 lg-w-100 mb-40px sm-mb-25px">
-                            Contamos con una trayectoria empresarial de más de
-                            veinte años, brindando servicios de excelencia,
-                            avalado por una amplia cartera de clientes
-                          </p>
-                          <a
-                            href="demo-medical-treatments.html"
-                            class="btn btn-medium btn-switch-text btn-dark-gray btn-round-edge"
-                          >
-                            <span>
-                              <span
-                                class="btn-double-text"
-                                data-text="Conocenos"
-                                >Conocenos</span
-                              >
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                      <div
-                        class="row row-cols-1 row-cols-md-4 row-cols-sm-2 justify-content-center counter-style-07 ps-3 pe-3"
-                        data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
-                      >
-                        <!-- start counter item -->
-                        <div class="col text-center sm-mb-30px">
-                          <h2
-                            class="vertical-counter d-inline-flex text-dark-gray fw-800 mb-0 ls-minus-3px position-relative z-index-0"
-                            data-to="1050"
-                          >
-                            <span
-                              class="text-highlight position-absolute bottom-9px w-100"
-                              ><span
-                                class="bg-gradient-flamingo-amethyst-green h-10px opacity-2"
-                              ></span
-                            ></span>
-                          </h2>
-                          <span
-                            class="d-block fs-14 fw-700 text-uppercase text-dark-gray"
-                            >Clientes felices</span
-                          >
-                        </div>
-                        <!-- end counter item -->
-                        <!-- start counter item -->
-                        <div class="col text-center sm-mb-30px">
-                          <h2
-                            class="vertical-counter d-inline-flex text-dark-gray fw-800 mb-0 ls-minus-3px position-relative z-index-0"
-                            data-to="12000"
-                          >
-                            <span
-                              class="text-highlight position-absolute bottom-9px w-100"
-                              ><span
-                                class="bg-gradient-flamingo-amethyst-green h-10px opacity-2"
-                              ></span
-                            ></span>
-                          </h2>
-                          <span
-                            class="d-block fs-14 fw-700 text-uppercase text-dark-gray"
-                            >Auditorias</span
-                          >
-                        </div>
-                        <!-- end counter item -->
-                        <!-- start counter item -->
-                        <div class="col text-center sm-mb-30px">
-                          <h2
-                            class="vertical-counter d-inline-flex text-dark-gray fw-800 mb-0 ls-minus-3px position-relative z-index-0"
-                            data-to="20000"
-                          >
-                            <span
-                              class="text-highlight position-absolute bottom-9px w-100"
-                              ><span
-                                class="bg-gradient-flamingo-amethyst-green h-10px opacity-2"
-                              ></span
-                            ></span>
-                          </h2>
-                          <span
-                            class="d-block fs-14 fw-700 text-uppercase text-dark-gray"
-                            >Practicas Anuales</span
-                          >
-                        </div>
-                        <!-- end counter item -->
-                        <!-- start counter item -->
-                        <!-- <div class="col text-center">
-                        <h2
-                          class="vertical-counter d-inline-flex text-dark-gray fw-800 mb-0 ls-minus-3px position-relative z-index-0"
-                          data-to="836"
-                        >
-                          <span class="text-highlight position-absolute bottom-9px w-100"
-                            ><span
-                              class="bg-gradient-flamingo-amethyst-green h-10px opacity-2"
-                            ></span
-                          ></span>
-                        </h2>
-                        <span class="d-block fs-14 fw-700 text-uppercase text-dark-gray"
-                          >Happy clients</span
-                        >
-                      </div> -->
-                        <!-- end counter item -->
-                      </div>
-                    </div>
-                  </section>
                 </div>
                 <!-- end tab content -->
               </div>
@@ -1209,7 +1077,9 @@
               <ul>
                 <li><a href="demo-business-about.html">Nosotros</a></li>
                 <li><a href="demo-business-services.html">Servicios</a></li>
-                <li><a href="demo-business-clients.html">Acceso a clientes</a></li>
+                <li>
+                  <a href="demo-business-clients.html">Acceso a clientes</a>
+                </li>
                 <li><a href="demo-business-contact.html">Francquicia</a></li>
               </ul>
             </div>
@@ -1239,7 +1109,9 @@
               >
               <ul>
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                  <a href="https://www.facebook.com/" target="_blank"
+                    >Facebook</a
+                  >
                 </li>
                 <!-- <li>
                   <a href="http://www.dribbble.com" target="_blank">Dribbble</a>
@@ -1248,7 +1120,9 @@
                   <a href="http://www.twitter.com" target="_blank">Twitter</a>
                 </li> -->
                 <li>
-                  <a href="http://www.instagram.com" target="_blank">Instagram</a>
+                  <a href="http://www.instagram.com" target="_blank"
+                    >Instagram</a
+                  >
                 </li>
               </ul>
             </div>
@@ -1259,14 +1133,15 @@
             >
               <span class="alt-font d-block text-white mb-5px">Oficina</span>
               <p class="w-80 lg-w-100 md-w-70 sm-w-100 mb-10px">
-                
-  SAN LUIS Nº 695, SALTA CAPITAL CP A4402AQM, ARGENTINA
+                SAN LUIS Nº 695, SALTA CAPITAL CP A4402AQM, ARGENTINA
               </p>
               <div>
                 <i
                   class="feather icon-feather-phone-call icon-very-small text-white me-10px"
                 ></i
-                ><a href="tel:12345678910" class="text-white">+1 234 567 8910</a>
+                ><a href="tel:12345678910" class="text-white"
+                  >+1 234 567 8910</a
+                >
               </div>
               <div>
                 <i
@@ -1285,21 +1160,6 @@
       </footer>
       <!-- end footer -->
       <!-- start sticky column -->
-      <div
-        class="sticky-wrap d-none d-xl-inline-block"
-        data-animation-delay="100"
-        data-shadow-animation="true"
-      >
-        <span class="fs-15 fw-500"
-          ><i class="bi bi-envelope icon-small me-10px align-middle"></i>Arrange
-          your appointment —
-          <a
-            href="demo-medical-appointment.html"
-            class="text-decoration-line-bottom fw-700"
-            >Book appointment</a
-          ></span
-        >
-      </div>
       <!-- end sticky column -->
     </div>
     <!-- start scroll progress -->
