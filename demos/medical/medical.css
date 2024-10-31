@@ -24,8 +24,8 @@
 .bg-red {
   background-color: var(--base-color);
 }
-.bg-gris{
-    background-color: var(--bsae-color2);
+.bg-gris {
+  background-color: var(--bsae-color2);
 }
 .bg-black2 {
   background-color: var(--dark-gray);
@@ -78,7 +78,7 @@ header .navbar-brand img {
 }
 /* bg color */
 .bg-light-turquoise-blue {
-  background-color: #ffffff;
+  background-color: #485d7015;
 }
 .bg-light-sea-green-transparent {
   background-color: rgba(22, 193, 204, 0.8);
