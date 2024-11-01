@@ -9,7 +9,7 @@
   --bsae-color2: #4a5768;
   --alt-font: "Manrope", sans-serif;
   --primary-font: "Manrope", sans-serif;
-  --dark-gray: #303334;
+  --dark-gray: #475c6f;
   --red: #f45959;
   --medium-light-gray: #b4b4b4;
   --medium-gray: #848587;
@@ -78,7 +78,10 @@ header .navbar-brand img {
 }
 /* bg color */
 .bg-light-turquoise-blue {
-  background-color: #485d7015;
+  background-color: #036efa11;
+}
+.bg-gradient-aztec-green {
+  background-image: linear-gradient(to right bottom, #475c6f, #475c6f, #475c6f, #475c6f, #475c6f);
 }
 .bg-light-sea-green-transparent {
   background-color: rgba(22, 193, 204, 0.8);
