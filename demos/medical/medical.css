@@ -78,11 +78,9 @@ header .navbar-brand img {
 }
 /* bg color */
 .bg-light-turquoise-blue {
-  background-color: #036efa11;
+  background-image: linear-gradient(to bottom, #475c6f38, #475c6f31, #475c6f1a, #475c6f11, #475c6f07);
 }
-.bg-gradient-aztec-green {
-  background-image: linear-gradient(to right bottom, #475c6f, #475c6f, #475c6f, #475c6f, #475c6f);
-}
+
 .bg-light-sea-green-transparent {
   background-color: rgba(22, 193, 204, 0.8);
 }
