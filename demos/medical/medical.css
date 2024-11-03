@@ -52,10 +52,11 @@
   align-self: flex-start;
 }
 
-/* #div-derecha {
-    max-height: 100vh; 
-    overflow-y: auto; 
-  } */
+.fixed-div {
+  position: fixed;
+  top: 100px; /* Ajusta el valor de top según tu preferencia */
+  left: 20px; /* Ajusta el valor de right según tu preferencia */
+}
 body {
   font-size: 17px;
   line-height: 30px;
