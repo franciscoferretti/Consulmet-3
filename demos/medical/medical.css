@@ -57,6 +57,7 @@
   top: 100px; /* Ajusta el valor de top según tu preferencia */
   left: 20px; /* Ajusta el valor de right según tu preferencia */
 }
+
 body {
   font-size: 17px;
   line-height: 30px;
@@ -79,7 +80,14 @@ header .navbar-brand img {
 }
 /* bg color */
 .bg-light-turquoise-blue {
-  background-image: linear-gradient(to bottom, #475c6f38, #475c6f31, #475c6f1a, #475c6f11, #475c6f07);
+  background-image: linear-gradient(
+    to bottom,
+    #475c6f38,
+    #475c6f31,
+    #475c6f1a,
+    #475c6f11,
+    #475c6f07
+  );
 }
 
 .bg-light-sea-green-transparent {
@@ -140,6 +148,7 @@ h6 {
   border-color: var(--base-color);
   color: var(--white);
 }
+
 .btn.btn-base-color:hover {
   background-color: var(--dark-gray);
   border-color: var(--dark-gray);

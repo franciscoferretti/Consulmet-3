@@ -10384,7 +10384,7 @@ blockquote footer {
   color: var(--base-color);
 }
 .btn.btn-dark-gray {
-  background-color: var(--dark-gray);
+  background-color: var(--red);
   color: var(--white);
 }
 .btn.btn-dark-gray:hover, .btn.btn-dark-gray:active {
@@ -19328,3 +19328,12 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+/* .pattern-bg {
+  width: 100%;
+  background-image: url('../images/consulmet/icono/iconos-graficos/chirin-blanco.png'); 
+  background-size: 72px 72px; 
+  background-repeat: repeat;
+  opacity: 0.5;
+  z-index: 0;
+  position:absolute;
+}  */
