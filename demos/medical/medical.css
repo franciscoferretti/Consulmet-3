@@ -12,11 +12,14 @@
   --dark-gray: #475c6f;
   --red: #f45959;
   --medium-light-gray: #b4b4b4;
-  --medium-gray: #848587;
+  --medium-gray: #586b7c;
 }
 /* box layout */
 .zzz {
   border: solid red;
+}
+.text-grey{
+  color: var(--medium-gray);
 }
 .text-base-color2 {
   color: var(--base-color) !important;
@@ -32,6 +35,10 @@
 }
 #myVideo {
   opacity: 0.8; /* Ajusta el valor de opacidad según tus necesidades */
+  overflow: hidden;
+  object-fit: cover !important;
+  width: 100%;
+  height: 100vh;
 }
 .altura {
   height: 60vh;
@@ -57,7 +64,10 @@
   top: 100px; /* Ajusta el valor de top según tu preferencia */
   left: 20px; /* Ajusta el valor de right según tu preferencia */
 }
-
+.video-container{
+  overflow: hidden;
+  height: 100vh;
+}
 body {
   font-size: 17px;
   line-height: 30px;
