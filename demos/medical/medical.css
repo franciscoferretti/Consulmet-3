@@ -15,6 +15,7 @@
   --medium-gray: #586b7c;
 }
 /* box layout */
+
 .zzz {
   border: solid red;
 }
@@ -29,6 +30,9 @@
 }
 .bg-gris {
   background-color: var(--bsae-color2);
+}
+.bg-gris2 {
+  background-color: #f6f6fe;
 }
 .bg-black2 {
   background-color: var(--dark-gray);
@@ -67,6 +71,9 @@
 .video-container{
   overflow: hidden;
   height: 100vh;
+}
+.feature-box-icon2 img{
+  height: 100%;
 }
 body {
   font-size: 17px;
