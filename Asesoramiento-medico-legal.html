@@ -46,20 +46,17 @@
             <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
               <a class="navbar-brand" href="index.html">
                 <img
-                  src="images/consulmet/logos/logo 2.png"
-                  data-at2x="images/demo-business-logo-white@2x.png"
+                  src="images/consulmet/logos/logo.png"
                   alt=""
                   class="default-logo"
                 />
                 <img
-                  src="images/consulmet/logos/logo 2.png"
-                  data-at2x="images/demo-business-logo-black@2x.png"
+                  src="images/consulmet/logos/logo.png"
                   alt=""
                   class="alt-logo"
                 />
                 <img
-                  src="images/consulmet/logos/logo 2.png"
-                  data-at2x="images/demo-business-logo-black@2x.png"
+                  src="images/consulmet/logos/logo.png"
                   alt=""
                   class="mobile-logo"
                 />
@@ -369,6 +366,125 @@
             data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
           >
             <div
+              class="bg-solitude-blue border-radius-6px pb-25px pt-25px mb-25px d-flex justify-content-around"
+            >
+              <div class="feature-box feature-box-left-icon-middle">
+                <!-- start accordion item -->
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <a
+                      href="#"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-style-02-02"
+                      aria-expanded="false"
+                      data-bs-parent="#accordion-style-02"
+                    >
+                      <div
+                        class="text-center accordion-title mb-0 position-relative"
+                      >
+                        <i
+                          class="text-dark-gray fa-solid fa-chevron-down fs-15 p-10px"
+                        ></i
+                        ><span class="text-dark-gray fs-19 fw-600 ls-minus-05px"
+                          >Pedí tu Presupuesto</span
+                        >
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    id="accordion-style-02-02"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion-style-02"
+                  >
+                    <div
+                      class="bg-solitude-blue border-radius-6px p-40px lg-p-30px"
+                    >
+                      <div class="contact-form-style-01 mt-0">
+                        <!-- start contact form -->
+                        <form
+                          action="email-templates/contact-form.php"
+                          method="post"
+                        >
+                          <div class="position-relative form-group mb-20px">
+                            <span class="form-icon"
+                              ><i class="bi bi-emoji-smile"></i
+                            ></span>
+                            <input
+                              type="text"
+                              name="name"
+                              class="form-control border-white fs-16 box-shadow-large required"
+                              placeholder="Nombre y Apellido*"
+                              required
+                            />
+                          </div>
+                          <div class="position-relative form-group mb-20px">
+                            <span class="form-icon"
+                              ><i class="bi bi-building"></i
+                            ></span>
+                            <input
+                              type="text"
+                              name="empresa"
+                              class="form-control border-white fs-16 box-shadow-large required"
+                              placeholder="Empresa*"
+                              required
+                            />
+                          </div>
+                          <div class="position-relative form-group mb-20px">
+                            <span class="form-icon"
+                              ><i class="bi bi-envelope"></i
+                            ></span>
+                            <input
+                              type="email"
+                              name="email"
+                              class="form-control border-white fs-16 box-shadow-large required"
+                              placeholder="Correo Electrónico*"
+                              required
+                            />
+                          </div>
+                          <div class="position-relative form-group mb-20px">
+                            <span class="form-icon"
+                              ><i class="bi bi-telephone"></i
+                            ></span>
+                            <input
+                              type="tel"
+                              name="telefono"
+                              class="form-control border-white fs-16 box-shadow-large required"
+                              placeholder="Teléfono*"
+                              required
+                            />
+                          </div>
+                          <div
+                            class="position-relative form-group form-textarea"
+                          >
+                            <span class="form-icon"
+                              ><i class="bi bi-chat-square-dots"></i
+                            ></span>
+                            <textarea
+                              placeholder="Mensaje"
+                              name="comment"
+                              class="form-control border-white fs-16 box-shadow-large"
+                              rows="3"
+                              required
+                            ></textarea>
+                          </div>
+                          <input type="hidden" name="redirect" value="" />
+                          <button
+                            class="btn btn-small btn-round-edge btn-base-color btn-box-shadow mt-20px submit w-100 text-transform-none"
+                            type="submit"
+                          >
+                            Enviar
+                          </button>
+                          <div class="form-results mt-20px d-none"></div>
+                        </form>
+                        <!-- end contact form -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end accordion item -->
+              </div>
+            </div>
+            <div
               class="bg-solitude-blue border-radius-6px p-45px lg-p-30px mb-25px"
             >
               <span
@@ -384,7 +500,7 @@
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
-                  class="pb-10px mb-10px border-bottom border-color-transparent-dark text-dark-gray"
+                  class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
                   <a href="control-de-ausentismo.html">Control de Ausentismo</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
@@ -392,8 +508,8 @@
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="Asesoramiento-médico-legal.html"
-                    >Asesoramiento Médico Legal</a
+                  <a href="Asesoramiento-medico-legal.html"
+                    >Acesoramiento Medico Legal</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
@@ -406,41 +522,38 @@
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="Juntas-Médicas-Administrativas-y-Judiciales.html"
+                  <a href="Juntas-Medicas-Administrativas-y-Judiciales.html"
                     >Juntas Médicas Administrativas y Judiciales</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="Servicio-de-Médico-in-Company.html"
+                  <a href="Servicio-de-Medico-in-Company.html"
                     >Servicio medico in Company</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="Campañas-de-Vacunación.html"
+                  <a href="Campanas-de-Vacunacion.html"
                     >Campañas de Vacunación</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="demo-corporate-services-details.html"
-                    >Servicios Especiales</a
+                  <a href="Servicios-especiales.html">Servicios Especiales</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li
                   class="pb-10px mb-10px border-bottom border-color-transparent-dark"
                 >
-                  <a href="Cobertura-Nacional.html"
-                    >Cobertura Nacional</a
+                  <a href="Cobertura-Nacional.html">Cobertura Nacional</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
                 <li>
-                  <a href="Cursos.de-Capacitación.html"
-                    >Curso de Capacitacion</a
+                  <a href="Cursos.de-Capacitacion.html">Curso de Capacitacion</a
                   ><i class="feather icon-feather-arrow-right ms-auto"></i>
                 </li>
               </ul>
@@ -462,62 +575,9 @@
                     >Atención al Cliente</span
                   >
                   <span class="text-white fs-20 fw-500 lh-22 d-block"
-                    ><a href="tel:+543874314565">+543874314565</a></span
+                    ><a href="tel:+543872270920">+543872270920</a></span
                   >
                 </div>
-              </div>
-            </div>
-            <div class="bg-solitude-blue border-radius-6px p-40px lg-p-30px">
-              <span
-                class="fs-19 alt-font text-dark-gray fw-700 mb-25px sm-mb-20px d-inline-block"
-                >Pedí tu Presuouesto</span
-              >
-              <div class="contact-form-style-01 mt-0">
-                <!-- start contact form -->
-                <form action="email-templates/contact-form.php" method="post">
-                  <div class="position-relative form-group mb-20px">
-                    <span class="form-icon"
-                      ><i class="bi bi-emoji-smile"></i
-                    ></span>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control border-white fs-16 box-shadow-large required"
-                      placeholder="Nombre*"
-                    />
-                  </div>
-                  <div class="position-relative form-group mb-20px">
-                    <span class="form-icon"
-                      ><i class="bi bi-envelope"></i
-                    ></span>
-                    <input
-                      type="email"
-                      name="email"
-                      class="form-control border-white fs-16 box-shadow-large required"
-                      placeholder="Correro Electronico*"
-                    />
-                  </div>
-                  <div class="position-relative form-group form-textarea">
-                    <span class="form-icon"
-                      ><i class="bi bi-chat-square-dots"></i
-                    ></span>
-                    <textarea
-                      placeholder="Mensaje"
-                      name="comment"
-                      class="form-control border-white fs-16 box-shadow-large"
-                      rows="3"
-                    ></textarea>
-                    <input type="hidden" name="redirect" value="" />
-                    <button
-                      class="btn btn-small btn-round-edge btn-base-color btn-box-shadow mt-20px submit w-100 text-transform-none"
-                      type="submit"
-                    >
-                      Enviar
-                    </button>
-                    <div class="form-results mt-20px d-none"></div>
-                  </div>
-                </form>
-                <!-- end contact form -->
               </div>
             </div>
           </div>
@@ -529,7 +589,9 @@
               Asesoramiento médico legal
             </h4>
             <p>
-              Brindamos asesoramiento sobre todo tipo de inquietudes en relación con la medicina laboral. En cuestiones de Higiene y Seguridad; prevención de enfermedades.
+              Brindamos asesoramiento sobre todo tipo de inquietudes en relación
+              con la medicina laboral. En cuestiones de Higiene y Seguridad;
+              prevención de enfermedades.
             </p>
 
             <img
@@ -542,7 +604,6 @@
               class="mt-30px md-mt-15px mb-60px md-mb-40px border-radius-6px"
               alt=""
             /> -->
-
           </div>
         </div>
       </div>
@@ -561,7 +622,7 @@
             <img
               src="images/consulmet/consulmet-figura-izquierda.png"
               alt=""
-              class=""
+              class="d-none d-md-block"
             />
           </div>
           <div class="container">
@@ -572,8 +633,7 @@
               >
                 <a href="demo-medical.html" class="footer-logo d-inline-block"
                   ><img
-                    src="images/consulmet/logos/logo blanco y naranja.png"
-                    data-at2x="images/demo-medical-logo-white@2x.png"
+                    src="images/consulmet/logos/logo-blanco.png"
                     alt=""
                 /></a>
               </div>

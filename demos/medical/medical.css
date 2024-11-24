@@ -19,7 +19,7 @@
 .zzz {
   border: solid red;
 }
-.text-grey{
+.text-grey {
   color: var(--medium-gray);
 }
 .text-base-color2 {
@@ -68,11 +68,11 @@
   top: 100px; /* Ajusta el valor de top según tu preferencia */
   left: 20px; /* Ajusta el valor de right según tu preferencia */
 }
-.video-container{
+.video-container {
   overflow: hidden;
   height: 100vh;
 }
-.feature-box-icon2 img{
+.feature-box-icon2 img {
   height: 100%;
 }
 body {
@@ -292,4 +292,10 @@ footer .elements-social ul li:last-child {
   .accordion-style-05 .accordion-item .number {
     top: 13px;
   }
+}
+
+.reason-number {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--bsae-color2);
 }
