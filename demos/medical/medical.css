@@ -92,8 +92,15 @@ header .container-fluid {
 .sticky-wrap.shadow-in {
   left: 31px;
 }
-header .navbar-brand img {
-  max-height: 40px;
+header .navbar-brand .care {
+  max-height: 140px;
+}
+header .navbar-brand .care2 {
+  max-height: 120px;
+
+}
+header .navbar-brand .care3 {
+  max-height: 120px;
 }
 /* bg color */
 .bg-light-turquoise-blue {
