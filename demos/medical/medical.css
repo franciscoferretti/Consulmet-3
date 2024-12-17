@@ -47,7 +47,14 @@
 .altura {
   height: 60vh;
 }
-
+.altura-index{
+  height: 65vh;
+}
+.img-index{
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
 .altura-div {
   height: 10vh;
 }
@@ -223,6 +230,9 @@ footer .nav-link {
 }
 footer .footer-logo img {
   max-height: 40px;
+}
+.footer-logo2 img{
+  object-fit: cover;
 }
 footer .elements-social ul li:last-child {
   margin-right: 0;
